@@ -21,19 +21,20 @@ DiveBuddyAPI is a personal learning project designed to explore backend architec
 
 ## 🧱 Tech Stack
 
-| Layer         | Technology |
-|--------------|------------|
-| **Language**  | TypeScript |
-| **Runtime**   | Node.js |
-| **API**       | REST, Express.js |
-| **Database**  | PostgreSQL (hosted on AWS RDS) |
-| **Storage**   | AWS S3 |
-| **Deployment**| AWS EC2 |
-| **Testing**   | Jest |
-| **Containerization** | Docker |
-| **Auth**      | JWT (planned) |
-| **Linting**   | ESLint + Prettier |
-| **CI/CD**     | GitHub Actions (planned) |
+| Layer                | Technology |
+|---------------------|------------|
+| **Language**         | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white) |
+| **Runtime**          | ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white) |
+| **API**              | ![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white) |
+| **Database**         | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) |
+| **Storage**          | ![AWS S3](https://img.shields.io/badge/AWS_S3-232F3E?logo=amazon-aws&logoColor=white) |
+| **Deployment**       | ![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?logo=amazon-aws&logoColor=white) |
+| **Testing**          | ![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white) |
+| **Containerization** | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) |
+| **Auth**             | ![JWT](https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white) |
+| **ORM**              | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white) |
+| **Linting**          | ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black) |
+| **CI/CD**            | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white) |
 
 ---
 
@@ -43,6 +44,7 @@ This project uses **Jest** for unit and integration testing.
 
 ```bash
 npm run test
+```
 
 ---
 
