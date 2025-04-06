@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules
+dist
+
+# Env config
+.env
+.env.*  # in case you use multiple env files
+
+# Git + Docker
+.git
+.gitignore
+Dockerfile
+.dockerignore
+docker-compose.yml
+nginx.conf
+
+# Local/system files
+*.log
+.vscode
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Husky
+.husky/
