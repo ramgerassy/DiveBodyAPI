@@ -1,0 +1,36 @@
+{
+   "name": "divebodyapi",
+   "version": "0.0.0",
+   "description": "<p align=\"center\">\r   <img src=\"https://raw.githubusercontent.com/ramgerassy/DiveBodyAPI/main/assets/divebodylogo.png\" alt=\"DiveBuddyAPI Logo\" width=\"250\"/>\r </p>\r A fully featured REST API for tracking and managing scuba diving logs. Built with Node.js, TypeScript, and PostgreSQL, and powered by AWS infrastructure.",
+   "main": "./dist/build.js",
+   "scripts": {
+      "test": "jest",
+      "test-covarage": "jest covarage",
+      "build": "tsc",
+      "lint": "eslint",
+      "start": "./dist/build.js",
+      "dev": "./dist/build.js"
+   },
+   "type": "module",
+   "engines": {
+      "node": ">=20.0.0"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ramgerassy/DiveBuddyAPI.git"
+   },
+   "keywords": [
+      "REST",
+      "API",
+      "NODE",
+      "JS",
+      "TS",
+      "ScubaDive"
+   ],
+   "author": "Ram Gerassy",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/ramgerassy/DiveBuddyAPI/issues"
+   },
+   "homepage": "https://github.com/ramgerassy/DiveBuddyAPI#readme"
+}
