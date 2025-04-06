@@ -41,7 +41,10 @@ export default [
     settings: {
       // Optional, if you plan to use path aliases later
       'import/resolver': {
-        typescript: {},
+        typescript: {
+          alwaysTryTypes: true,
+          project: './tsconfig.json',
+        },
       },
     },
   },
