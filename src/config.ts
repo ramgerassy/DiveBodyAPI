@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config({ path: `../.env.${process.env.NODE_ENV || 'dev'}` });
 
 const envSChema = z.object({
-  NODE_ENV: z.enum(['development', 'test', 'production']).default('development'),
+  NODE_ENV: z.enum(['dev', 'test', 'prod', 'local']).default('dev'),
   PORT: z.number().default(3000),
   DATABASE_URL: z.string().url(),
   AWS_ACCESS_KEY_ID: z.string().optional(),
