@@ -11,14 +11,14 @@ DiveBuddyAPI is a personal learning project designed to explore backend architec
 
 ## 🚀 Features
 
--  ✍️ Create and manage personal dive logs
--  📍 Track dive sites, depths, conditions, and buddy divers
--  🔐 Secure authentication and authorization (JWT)
--  🧭 Filter, sort, and analyze dive history
--  📦 Upload media and dive data files (via AWS S3)
--  🧪 Full test coverage with Jest
--  🐳 Dockerized for development and production
--  ⚙️ CI/CD-ready (coming soon)
+- ✍️ Create and manage personal dive logs
+- 📍 Track dive sites, depths, conditions, and buddy divers
+- 🔐 Secure authentication and authorization (JWT)
+- 🧭 Filter, sort, and analyze dive history
+- 📦 Upload media and dive data files (via AWS S3)
+- 🧪 Full test coverage with Jest
+- 🐳 Dockerized for development and production
+- ⚙️ CI/CD-ready (coming soon)
 
 ---
 

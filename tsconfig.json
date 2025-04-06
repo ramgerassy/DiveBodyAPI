@@ -1,18 +1,18 @@
 {
-   "compilerOptions": {
-      "target": "ES2020", // reasonable baseline for modern JS
-      "module": "ESNext", // supports top-level await & dynamic imports
-      "moduleResolution": "node",
-      "rootDir": "./src", // where your TS files live
-      "outDir": "./dist", // where compiled JS goes
-      "esModuleInterop": true, // default interop behavior with CJS/ESM
-      "forceConsistentCasingInFileNames": true,
-      "strict": true, // enables all strict type-checking
-      "skipLibCheck": true, // faster builds, usually safe
-      "resolveJsonModule": true, // allows importing `.json` files
-      "allowSyntheticDefaultImports": true, // so you can `import express from 'express'`
-      "types": ["node", "jest"] // include Node and Jest type definitions
-   },
-   "include": ["src"],
-   "exclude": ["node_modules", "dist", "coverage"]
+  "compilerOptions": {
+    "target": "ES2020", // reasonable baseline for modern JS
+    "module": "ESNext", // supports top-level await & dynamic imports
+    "moduleResolution": "node",
+    "rootDir": "./src", // where your TS files live
+    "outDir": "./dist", // where compiled JS goes
+    "esModuleInterop": true, // default interop behavior with CJS/ESM
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // enables all strict type-checking
+    "skipLibCheck": true, // faster builds, usually safe
+    "resolveJsonModule": true, // allows importing `.json` files
+    "allowSyntheticDefaultImports": true, // so you can `import express from 'express'`
+    "types": ["node", "jest"] // include Node and Jest type definitions
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "coverage"]
 }
