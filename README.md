@@ -3,22 +3,26 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/ramgerassy/DiveBodyAPI/main/assets/divebodylogo.png" alt="DiveBuddyAPI Logo" width="250"/>
 </p>
-A fully featured REST API for tracking and managing scuba diving logs. Built with Node.js, TypeScript, and PostgreSQL, and powered by AWS infrastructure.
 
-DiveBuddyAPI is a personal learning project designed to explore backend architecture best practices, scalable API design, infrastructure deployment, and test-driven development.
+A backend REST API for managing and logging scuba dives — inspired by my love for the ocean and built from scratch as part of a hands-on learning journey.
+
+DiveBuddyAPI is built with Node.js, TypeScript, and PostgreSQL. It's powered by modern infrastructure (Docker, AWS), tested with Jest, and structured with scalable backend principles.
 
 ---
 
-## 🚀 Features
+## 🚀 Features (in progress)
 
-- ✍️ Create and manage personal dive logs
-- 📍 Track dive sites, depths, conditions, and buddy divers
-- 🔐 Secure authentication and authorization (JWT)
-- 🧭 Filter, sort, and analyze dive history
-- 📦 Upload media and dive data files (via AWS S3)
-- 🧪 Full test coverage with Jest
-- 🐳 Dockerized for development and production
-- ⚙️ CI/CD-ready (coming soon)
+- 📦 Project scaffolded from the ground up
+- 🧱 Clean base infrastructure with Docker & Docker Compose
+- 🧼 ESLint + Prettier for consistent code style
+- ✅ Husky for pre-commit code checks
+- 🧪 Jest for unit and integration tests
+- 🔁 NGINX configured as a reverse proxy
+- 🔌 Connected to PostgreSQL with Drizzle ORM
+- 🔐 Authentication Service in development (OAuth2 + JWT)
+- 📦 API Key support planned
+- 🛠️ CI/CD planned (GitHub Actions)
+- 🌊 Inspired by real-world diving experiences
 
 ---
 
@@ -35,7 +39,7 @@ DiveBuddyAPI is a personal learning project designed to explore backend architec
 | **Testing**          | ![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white)                                                                                               |
 | **Containerization** | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)                                                                                         |
 | **Auth**             | ![JWT](https://img.shields.io/badge/JWT-000000?logo=jsonwebtokens&logoColor=white)                                                                                        |
-| **ORM**              | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)                                                                                         |
+| **ORM**              | ![Drizzle ORM](https://img.shields.io/badge/Drizzle%20ORM-000000?logo=data&logoColor=white)                                                                               |
 | **Linting**          | ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black) |
 | **CI/CD**            | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)                                                                 |
 
@@ -43,38 +47,47 @@ DiveBuddyAPI is a personal learning project designed to explore backend architec
 
 ## 🧪 Testing
 
-This project uses **Jest** for unit and integration testing.
+This project uses **Jest** for:
+
+- Unit tests
+- Integration tests
+- Pre-commit validation (via Husky)
 
 ```bash
 npm run test
 ```
 
----
+🗺️ Roadmap
 
-📌 Roadmap
+✅Project scaffolding & base structure
 
-Project scaffolding
+✅ESLint, Prettier & Husky setup
 
-Dive log CRUD operations
+✅Docker & NGINX configuration
 
-Auth system (JWT)
+✅PostgreSQL integration via Drizzle ORM
 
-AWS S3 integration for media
+✅Basic Jest testing framework setup
 
-CI/CD with GitHub Actions
+⬜Auth system with OAuth2 + JWT
 
-Swagger docs
+⬜API Key support
 
-Deployment to EC2 + RDS
+⬜Buisness Logic Implementation
 
----
+⬜CI/CD with GitHub Actions
+
+⬜Swagger/OpenAPI documentation
+
+⬜File upload via AWS S3
+
+⬜Deployment to AWS EC2 + RDS
 
 🤝 Contributions
 
-This is a personal learning project, but suggestions, ideas, and constructive feedback are always welcome.
-
----
+This is a personal learning project, but suggestions, feedback, or ideas are always welcome!
+Feel free to open issues or submit a pull request.
 
 📬 Contact
 
-Feel free to reach out on LinkedIn or open an issue on GitHub.
+Feel free to reach out on LinkedIn or open an issue here on GitHub.
